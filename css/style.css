@@ -216,7 +216,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .blocks-title__subtitle {
 	font-size: 17px;
 	color:#616161;
-	font-family: 'Merriweather', serif;
+	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	margin: 0;
 	line-height: 1;
@@ -252,7 +252,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .about__article_title {
 	font-size: 20px;
-  	font-family: "Merriweather";
+  	font-family: 'Montserrat', sans-serif;
   	font-weight: bold;
 	color: #191919;
 	text-transform: uppercase;
@@ -261,7 +261,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .about__article_title:nth-child(2n) {
 	font-size: 17px;
-  	font-family: "Merriweather";
+  	font-family: 'Montserrat', sans-serif;
   	font-weight: bold;
 	color: #191919;
 	text-transform: uppercase;
@@ -443,11 +443,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     text-transform: uppercase;
     line-height: 1.45;
     margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 .description-item_txt {
 	font-size: 16px;
 	line-height: 1.5;
 	opacity: 0.9;
+	font-family: 'Raleway', sans-serif;
 }
 .description-item .hide-text {
 	display: block;
@@ -522,7 +524,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	box-shadow: none;
 	border: none;
 	text-align: left;
-
+	font-family: 'Montserrat', sans-serif;
 }
 .button-sign {
 	position: absolute;
@@ -646,6 +648,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }	
 .profile-description{
 	width: 95%;
+
 }
 .profile-description_name{
 	font-size: 20px;
@@ -653,6 +656,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	margin-top: 0;
 	font-weight: bold;
 	margin-bottom: 25px;
+	font-family: 'Montserrat', sans-serif;
 }
 .profile-description_position {
 	font-size: 15px;
@@ -665,7 +669,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 .profile-description_txt{
 	font-size: 16px;
-	font-family: arial,sans-serif;
+	font-family: 'Raleway', sans-serif;
 	line-height: 1.5;
 	color: rgba(0, 0, 0, 0.8);
 	margin-top: 0;
@@ -1029,6 +1033,7 @@ font-size: 0;
 	border-bottom: 1px solid rgba(255,255,255,0.2);
 	outline:none;
 	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
 	color: #fff;	
 }
 .form-field::placeholder{
@@ -1052,6 +1057,7 @@ font-size: 0;
 	outline:none;
 	font-size: 18px;
 	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
 	color: #214744;
 	text-transform: uppercase;
 	border: none;
@@ -1063,6 +1069,7 @@ font-size: 0;
 	width: 44%;
 	height: 460px;
 	background-color: rgba(52 , 71 ,79,0.8);
+	font-family: 'arial', sans-serif;
 }
 .address-description{
 	margin: 0;
@@ -1118,13 +1125,13 @@ font-size: 0;
 	font-size: 16px;
 	line-height: 1.563;
 	color: rgba(255, 255, 255, 0.8);
-	font-family: arial;
 	margin: 0;
 }
 .follow_us {
 	text-transform: uppercase;
 	margin: 0;
 	margin-bottom: 18px;
+	font-family: 'Montserrat', sans-serif;
 }
 .networks {
 	display: flex;
@@ -1163,6 +1170,7 @@ font-size: 0;
 .rights {
 	color: rgba(255, 255, 255, 0.4);
 	margin: 0;
+	font-family: 'Raleway', sans-serif;
 }
 @media (max-width:768px){
 	.footer{
@@ -1183,7 +1191,6 @@ font-size: 0;
 	height: 40px;
 }
 
-/*поменяй цвет картинок*/
 /*----------------------------
        FOOTER END
 ------------------------------*/
